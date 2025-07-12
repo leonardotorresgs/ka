@@ -162,7 +162,7 @@ body {
     background-color: var(--white-light);
 }
 
-#radio8:checked ~ .navigation-auto .auto-btn9{
+#radio9:checked ~ .navigation-auto .auto-btn9{
     background-color: var(--white-light);
 }
 
