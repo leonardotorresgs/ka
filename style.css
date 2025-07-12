@@ -26,7 +26,7 @@ body {
 }
 
 .slides {
-    width: 400%;
+    width: 1000%;
     height: 400px;
     display: flex;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .slide {
-    width: 25%;
+    width: 10%;
     position: relative;
     transition: 2s;
 }
@@ -75,15 +75,39 @@ body {
 }
 
 #radio2:checked ~ .first {
-    margin-left: -25%;
+    margin-left: -10%;
 }
 
 #radio3:checked ~ .first {
-    margin-left: -50%;
+    margin-left: -20%;
 }
 
 #radio4:checked ~ .first {
-    margin-left: -75%;
+    margin-left: -30%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio7:checked ~ .first {
+    margin-left: -60%;
+}
+
+#radio8:checked ~ .first {
+    margin-left: -70%;
+}
+
+#radio9:checked ~ .first {
+    margin-left: -80%;
+}
+
+#radio10:checked ~ .first {
+    margin-left: -90%;
 }
 
 .navigation-auto div{
@@ -119,6 +143,30 @@ body {
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: var(--white-light);
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: var(--white-light);
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: var(--white-light);
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: var(--white-light);
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8{
+    background-color: var(--white-light);
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn9{
+    background-color: var(--white-light);
+}
+
+#radio10:checked ~ .navigation-auto .auto-btn10{
     background-color: var(--white-light);
 }
 
